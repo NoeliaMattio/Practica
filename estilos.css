@@ -5,15 +5,13 @@ header {
   background-color: rgb(238, 92, 238);
 }
 
-main {
-    background-image:linear-gradient(pink, purple);
-}
 a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 }
 
 h1 {
+    background-color: rgb(191, 131, 248);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin: 10px 0px;
@@ -24,7 +22,7 @@ h1 {
     }
 
 .margen {
-    margin: 10px 0px;
+    margin: 10px 20px;
     }
 
  #margen {
@@ -37,20 +35,7 @@ h1 {
     margin: 20px 50px;
 }
 
-.menu {
-    width: 120%;
-}
-     ul { 
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    li {
-        border-radius: 5px;
-        background-color:antiquewhite;
-        padding: 5px;
-    }
+    
      .boton {
         border-radius: 5px;
         background-color:antiquewhite;
@@ -96,12 +81,11 @@ h1 {
         }
   
    .centro {
-    display: flex;
-    justify-content: center;
     border-radius: 5px;
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(247, 116, 250);
     padding: 10px 10px; 
     margin-bottom: 20px;
+    width: 500px;
     }
 
     .carrito-flex {
@@ -128,31 +112,21 @@ h1 {
  
 .imagen {
 border-radius: 20px;
-margin: 20px 50px;
+margin: 20px 30px;
 padding: 5px 5px;
 }
 
 .contacto {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-bottom: 50px;
-    background-image: linear-gradient(pink purple );
-
-}
+ padding: 10px;
+    }
 
 .formulario {
     margin: 10px 10px;
-    padding: 20px 10px 200px 10px;
+    padding: 20px 250px 200px 10px;
 }
 
-/*TRANSICIONES*/
-#transicion {
-    transition: all 2s;
-}
-#transicion:hover {
-    height: 50px;
-    border-color: black;
-    background-color: rgb(177, 118, 233);
+
+.lila {
+    background-color: rgb(179, 112, 243);
 }
 
