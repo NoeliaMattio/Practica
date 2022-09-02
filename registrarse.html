@@ -10,46 +10,71 @@
 <!-- COMIENZO DEL BODY -->
 <body> 
   <header>
-    <!-- MENÚ -->
-        <nav class="navbar navbar-expand-lg lila">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav align-items-end">
-                  <li class="nav-item">
-                    <a href="index.html">
-                      <img src="./IMAGENES/ohana+sin+fondo.png" width="" alt="">
-                    </a> 
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="preguntasfrecuentes.html">Preguntas frecuentes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="Contacto.html">Contacto</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="pro" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Productos
-                    </a>
-                    <ul class="dropdown-menu lila">
-                      <li><a class="dropdown-item" href="jeans.html">Jeans</a></li>
-                      <li><a class="dropdown-item" href="camperas.html">Camperas</a></li>
-                      <li><a class="dropdown-item" href="sweaters.html">Sweaters</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <!-- BOTON REGISTRARSE -->
-              <a class="navbar-brand" href="registrarse.html"> REGISTRARSE </a>
-            </div>
-          </nav> 
-          <!-- LOGO -->
-          <img class="ancho" src="IMAGENES/IMG-20210518-WA0009.jpg" width="800" height="320" alt="">
+    <p class="animacion text-center m-0 p-0">COMPRA MÍNIMA $20.000 - ENVÍO A TODO EL PAÍS</p>
+    <p class="text-center m-0 p-0"> Efectivo, deposito/transferencia, Tarjeta de Credito, Mercado Pago</p>
+  <!-- MENÚ -->
+  <nav id="navbar-example2" class="navbar navbar-expand-lg lila">
+    <div class="container-fluid">
+      <a href="index.html">
+        <img src="./IMAGENES/ohana+sin+fondo.png" width="" alt="">
+      </a> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav align-items-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="preguntasfrecuentes.html">Preguntas frecuentes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                Productos
+            </a>
+            <ul class="dropdown-menu lila" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="jeans.html">Jeans</a></li>
+              <li><a class="dropdown-item" href="camperas.html">Camperas</a></li>
+              <li><a class="dropdown-item" href="sweaters.html">Sweaters</a></li>
+            </ul>
+          </li>
+        </ul>
+    
+         
+        </div>
+     
+       <!-- CARRITO -->
+       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+       </svg>
+    </div>
+  </nav> 
+   <!-- CARROUSEL -->
+  <div id="carouselExampleIndicators" class="carousel slide carrousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="IMAGENES/IMG-20210518-WA0009.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="IMAGENES/indumentaria-mujer.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="IMAGENES/ropaok.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
   </header>
   <!-- COMIENZO MAIN -->
    <main class="color">
