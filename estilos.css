@@ -3,7 +3,6 @@
 }
 
 h1 {
-    background-color: rgb(191, 131, 248);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin: 10px 0px;
@@ -90,14 +89,16 @@ h4{
     padding: 10px 0px 500px 10px;
     }
 
-.lila {
-    background-color: rgb(179, 112, 243);
-    }
+
 
 .formulario1 {
     margin: 10px 40px;
     padding: 10px 10px 450px 10px;
     }
+
+.lila {
+    background-color: rgb(223, 98, 223);
+}
 
 .animacion {
 animation-duration: 5s;
@@ -113,3 +114,4 @@ background-color: rgb(246, 8, 8);
         opacity: 5;
     }
 }  
+    

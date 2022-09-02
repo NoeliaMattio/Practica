@@ -4,6 +4,7 @@
 <title>Productos</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./bootstrap-5.2.0-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./CSS/destino.css">
   <link rel="stylesheet" href="./estilos.css">
 </head>
 <!-- COMIENZO DEL BODY -->
@@ -16,9 +17,11 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav align-items-end">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a href="index.html">
+                  <img src="./IMAGENES/ohana+sin+fondo.png" width="" alt="">
+                </a> 
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
@@ -30,10 +33,10 @@
                 <a class="nav-link active" href="Contacto.html">Contacto</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link active dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Productos
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu lila">
                   <li><a class="dropdown-item" href="jeans.html">Jeans</a></li>
                   <li><a class="dropdown-item" href="camperas.html">Camperas</a></li>
                   <li><a class="dropdown-item" href="Sweaters.html">Sweaters</a></li>
@@ -44,7 +47,9 @@
           <!-- BOTON REGISTRARSE -->
              <a class="navbar-brand" href="registrarse.html"> REGISTRARSE </a>
           <!-- CARRITO -->
-             <img src="IMAGENES/carrito.png" width="80" alt="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+           </svg>
         </div>
       </nav> 
       <!-- LOGO -->
@@ -201,13 +206,7 @@
         </a>
         <span class="mb-3 mb-md-0 text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">© 2022. Ohana Indumentaria</font></font></span>
       </div>
-  
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-      </ul>
     </footer>
-     <script src="./bootstrap-5.2.0-dist/bootstrap-5.2.0-dist/js/bootstrap.js"></script>
-</body>
+    <script src="bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
